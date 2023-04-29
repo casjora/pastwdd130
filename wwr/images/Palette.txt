@@ -1,0 +1,36 @@
+/* CSS HEX */
+--celeste: #d5d7d2;
+--log-cabin: #1f1f19;
+--edward: #a3aba5;
+--natural-gray: #8a877c;
+--corduroy: #69746a;
+--manatee: #90969e;
+--abbey: #565d60;
+--soya-bean: #5c5446;
+--cerise-red: #da3453;
+
+
+/* SCSS HEX */
+$celeste: #d5d7d2;
+$log-cabin: #1f1f19;
+$edward: #a3aba5;
+$natural-gray: #8a877c;
+$corduroy: #69746a;
+$manatee: #90969e;
+$abbey: #565d60;
+$soya-bean: #5c5446;
+$cerise-red: #da3453;
+
+
+/* SCSS RGB */
+--celeste: rgba(213,215,210,1);
+--log-cabin: rgba(31,31,25,1);
+--edward: rgba(163,171,165,1);
+--natural-gray: rgba(138,135,124,1);
+--corduroy: rgba(105,116,106,1);
+--manatee: rgba(144,150,158,1);
+--abbey: rgba(86,93,96,1);
+--soya-bean: rgba(92,84,70,1);
+--cerise-red: rgba(218,52,83,1);
+
+
