@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital&family=Roboto:ital&family=Roboto+Slab,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --heading-font: "Roboto Slab","IM Fell French Canon";
+    --paragraph-font: Roboto,Lato, Helvetica, sans-serif;
+}
 #content {
     max-width:1600px;
     margin: 0 auto;
@@ -7,6 +13,7 @@ nav a{
     text-align: center;
     color: #1F1F19;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -31,6 +38,8 @@ main section{
 body {
     background-color: #A3ABA5; 
     color: #1F1F19;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#658681;
@@ -45,6 +54,10 @@ nav a:hover {
     background-color: #d5d7d2;
     color: #1F1F19;
     text-decoration: none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:5px;
 }
 
 .book:hover, .join:hover{
@@ -55,24 +68,40 @@ nav a:hover {
 .msg {
     background-color: black;
     color: whitesmoke;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:black;
     color: whitesmoke;
+    padding: 25px 50px;
 }
 
 .home-title{
     color: #1F1F19;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 h4{
     color: #1F1F19;
 }
+h2{
+    margin: 0;
+}
+
+
 
 .msg h2{
     color: whitesmoke;
+    font-family: var(--heading-font);
+
 }
 .msg p{
     color: whitesmoke;
+    font-size: .8em;
+    padding: 15px;
 }
 footer a{
     color: blueviolet;
@@ -89,6 +118,7 @@ footer p {
 
 .icon {
     width: 80px;
+    padding: 10px;
 }
 .logo{
     width: 80px;
@@ -96,4 +126,19 @@ footer p {
 
 #hero-img{
     width:100%;
+}
+#logo_link {
+    padding: 5px;
+
+} 
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #1F1F19;
+}
+
+main section img {
+    box-sizing: border-box;
 }
